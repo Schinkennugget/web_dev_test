@@ -1,7 +1,10 @@
 ///Methode Breitensuche mit start- und endKnoten
 void breitensuche(String startKnoten, String endKnoten) {
+    ///warteliste und fertig-Liste initialisieren
     ArrayList<String> warteliste = new ArrayList<String>();
     ArrayList<String> fertig = new ArrayList<String>();
+    ///String aktuellerKnotenBezeichner initialisieren und ihn auf startknoten setzen. 
+    // Dieser zeigt, bei welchem Knoten der Code grade ist.
     String aktuellerKnotenBezeichner = startKnoten;
 
     //Solange der gesuchte Knoten nicht abgearbeitet wurde
