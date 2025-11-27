@@ -1,3 +1,4 @@
+///Methode Breitensuche mit start- und endKnoten
 void breitensuche(String startKnoten, String endKnoten) {
     ArrayList<String> warteliste = new ArrayList<String>();
     ArrayList<String> fertig = new ArrayList<String>();
